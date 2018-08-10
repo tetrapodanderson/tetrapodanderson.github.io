@@ -1,3 +1,5 @@
-h1 {
-  color: red;
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 14px;
+  }
 }
