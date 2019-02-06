@@ -1,0 +1,77 @@
+@dedia (min-width: 768px) {
+
+}
+
+body {
+  font-family: 游ゴシック;
+  background-color: #F4E7FB;
+}
+
+header {
+  margin-bottom: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #9932CC;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(153, 20, 204, 0.4);
+}
+
+.home, .diary, .profile, .producer {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-left {
+  float: left;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  min-height: 470px;
+}
+
+section {
+ margin-bottom: 50px;
+}
+
+.title {
+  border-left: 10px solid #A331DB;
+  padding-left: 10px;
+}
+
+.flex {
+  padding: 10px;
+  display: flex;
+}
+
+.main-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 9999px;
+}
+
+.introduction {
+  padding-left: 20px;
+}
+
+footer {
+  height: 30px;
+  line-height: 30px;
+  background-color: #9932CC;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
