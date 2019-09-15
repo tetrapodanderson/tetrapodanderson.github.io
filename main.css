@@ -13,7 +13,7 @@ header {
   line-height: 50px;
   background-color: #9932CC;
   color: #fff;
-  box-shadow: 0 10px 10px rgba(153, 20, 204, 0.4);
+  box-shadow: 0 3px 10px rgba(153, 20, 204, 0.4);
 }
 
 .home, .diary, .profile, .producer {
@@ -32,13 +32,13 @@ header {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
 
 main {
-  min-height: 470px;
+  min-height: calc(100vh - 130px);
 }
 
 section {
@@ -53,15 +53,25 @@ section {
 .flex {
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main-image {
   height: 200px;
   width: 200px;
   border-radius: 9999px;
+  width: 20%;
+}
+
+.proverb {
+  font-size: 30px;
+  margin: 50px;
+  padding: 50px;
+  background-color: white;
 }
 
 .introduction {
+  width: 80%;
   padding-left: 20px;
 }
 
